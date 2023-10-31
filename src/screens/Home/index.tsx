@@ -16,8 +16,7 @@ export function Home() {
   <GestureHandlerRootView>
    <Container>
       <Header />
-      <Nome>Nome</Nome>
-             
+      <Nome>Nome</Nome>             
    </Container>
 
    </GestureHandlerRootView>

@@ -54,6 +54,7 @@ export function Header() {
     const [locationForegroundPermission,requestLocationForegroundPermission] = useForegroundPermissions();
     const [isLoadingLocation,setisLoadingLocation] = useState(true);
     const [currentAddress,setcurrentAddress] =useState<String | null>(null);
+    
     useEffect(()=>{
       requestLocationForegroundPermission();
     },[]);
